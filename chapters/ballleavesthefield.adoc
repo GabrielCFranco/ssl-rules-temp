@@ -18,7 +18,7 @@ Goal lines are the short <<Field Lines, field lines>> at both ends of the playin
 
 ==== Goal Kick
 .Definition
-The ball has to be placed 0.2 meters from the closest touch line and 1 meter from the goal line.
+The ball has to be placed 0.2 meters from the closest touch line and 0.5 meter from the goal line.
 
 After the ball has been placed, a <<Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
@@ -37,7 +37,7 @@ After the ball has been placed, a <<Free Kick, free kick>> is awarded to the opp
 A corner kick is used to restart the game after the ball left the field by crossing the goal line of the team that touched the ball last.
 
 [[aimless-kick, Aimless Kick]]
-==== Aimless Kick [small]#(_Division B only_)#
+==== Aimless Kick
 .Definition
 The ball has to be placed at the position from where the ball was kicked (see the <<Free Kick, free kick>> rules for the exact ball position rules).
 
