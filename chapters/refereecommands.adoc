@@ -5,7 +5,7 @@ An overview of the referee commands and how they interact with the game state, i
 === Stopping The Game
 ==== Stop
 .Definition
-When the stop command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 0.5 meters distance to the ball and are not allowed to <<Ball Manipulation, manipulate the ball>>.
+When the stop command is issued, all robots have to slow down to less than 0.75 m/s. Additionally, all robots have to keep at least 0.5 meters distance to the ball and are not allowed to <<Ball Manipulation, manipulate the ball>>.
 
 NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
@@ -39,9 +39,9 @@ NOTE: During manual ball placement, the game should be in <<Stop, stop>> to allo
 
 No ball placement is required if all of the following constraints are fulfilled:
 
-* The ball is closer than 1m to the designated position.
+* The ball is closer than 0.5m to the designated position.
 * The ball is inside the field.
-* The ball is at least 0.7m away from any defense area.
+* The ball is at least 0.3m away from any defense area.
 * The ball is stationary.
 
 In this case, the game can be continued as soon as all robots keep the required distance for <<Stop, stop>>.
@@ -81,8 +81,7 @@ NOTE: The game commences directly after ball placement. The team receiving the b
 
 NOTE: It is allowed to enter the defense area during ball placement.
 
-Ball placement is mandatory for all teams in division A.
-Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
+Teams in Entry League may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
 If the opposing team fails to place the ball or no team can place the ball, it is placed by the <<Referee, referee>> or the <<Assistant Referee, assistant referee>>.
 
@@ -104,8 +103,6 @@ The ball has to be placed in the center of the field by the human referee.
 When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
 When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
-
-When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
 Both half times as well as both overtime periods (if needed) start with a kick-off. Chapter <<Match Preparation>> describes how to determine the attacking team.
@@ -180,7 +177,7 @@ The match is resumed when
 * <<Force Start, force start>> has been issued.
 * the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>.
 * 10 seconds passed following a <<Kick-Off, kick-off>>.
-* 5 seconds (Division A) or 10 seconds (Division B) passed following a <<Free Kick, free kick>>.
+* 10 seconds passed following a <<Free Kick, free kick>>.
 
 NOTE: see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
 
