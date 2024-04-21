@@ -143,6 +143,8 @@ The procedure of a penalty kick is as follows:
 . When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again.
 . If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is <<Stop, stopped>>.
 
+NOTE: In the Entry League, spin can be used, but the referee may intervene if the spin conflicts with any rule.
+
 A goal is awarded if:
 
 * the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued.
